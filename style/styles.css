@@ -1,4 +1,56 @@
 * {
-    padding: 0px;
-    
+    padding: 0;
+    margin:  0;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Cabeçalho do site */
+
+header.header-principal {
+    background-color: #f8f8f8;
+    padding: 16px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+div.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .menu li a {
+    text-decoration: none; 
+    color:#e74c3c;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav .menu li a:hover {
+    color:  #e74d3ca8;
+}
+
+/* Seção da main */
+
+
+
+/* Seção do footer */
