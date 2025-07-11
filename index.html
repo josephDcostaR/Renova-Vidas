@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renova Vidas</title>
    
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/styles-mobile.css">
+    <script src="script/scripts.js" defer></script>
 </head>
 <body>
 
     <header class="header-principal">
         <div class="container-header">
             <h1 class="logo">Renova Vidas</h1>
-            <nav>
+
+            <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+            <nav class="nav-principal">
                 <ul class="menu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
@@ -105,12 +109,11 @@
 
 
           
-
         <div id="formulario"  class="main-formulario">
             <h2>💬 Quero fazer parte!</h2>
             <p>Preencha seus dados e selecione como você gostaria de contribuir. Cada gesto conta. 💛</p>
 
-            <form action="#" method="post">
+            <form  id="form-ajuda" action="#" method="post">
                 <label for="nome">Seu nome</label>
                 <input type="text" id="nome" name="nome" placeholder="Ex: Ana Silva" required>
 

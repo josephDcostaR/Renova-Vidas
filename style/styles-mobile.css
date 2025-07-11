@@ -1,0 +1,100 @@
+
+/* 🌐 Responsivo - Mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-principal {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 99;
+  }
+
+  .nav-principal.open {
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+
+  /* Hero Section */
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .main-quem-somos h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero img {
+    max-width: 90%;
+  }
+
+  .cta-doar {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  /* Seção Sobre */
+  .secao-sobre h2 {
+    font-size: 1.5rem;
+  }
+
+  .secao-sobre p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  /* Seção Ações */
+  .secao-projetos h2,
+  .secao-ajuda h2 {
+    font-size: 1.5rem;
+  }
+
+  .secao-projetos p,
+  .secao-ajuda p,
+  .secao-ajuda ul li {
+    font-size: 1rem;
+  }
+
+  .galeria-voluntariado {
+    grid-template-columns: 1fr;
+  }
+
+  /* Formulário */
+  .main-formulario {
+    padding: 30px 16px;
+  }
+
+  .main-formulario input,
+  .cta-formulario {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  .redes-sociais {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .container-footer p,
+  .direitos {
+    font-size: 0.95rem;
+  }
+}
