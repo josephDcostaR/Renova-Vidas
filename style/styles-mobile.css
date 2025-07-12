@@ -1,5 +1,4 @@
 
-/* 🌐 Responsivo - Mobile */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -27,8 +26,6 @@
     flex-direction: column;
     gap: 16px;
   }
-}
-
 
   /* Hero Section */
   #hero {
@@ -97,4 +94,7 @@
   .direitos {
     font-size: 0.95rem;
   }
+
 }
+
+
