@@ -4,7 +4,7 @@
 
 [✏ Veja o prototipo figma](https://www.figma.com/design/2IHZmEsNGcQoCT0XlNT6KA/renovavidas?node-id=0-1&p=f&t=YhLp17X4JGL3z08l-0)
 
-[📕 Documentação]([https://www.figma.com/design/2IHZmEsNGcQoCT0XlNT6KA/renovavidas?node-id=0-1&p=f&t=YhLp17X4JGL3z08l-0](https://www.notion.so/Documenta-o-do-Site-Renova-Vidas-22e7b20159c480b58006c847bfad0e24?showMoveTo=true&saveParent=true))
+[📕 Documentação](https://www.notion.so/Documenta-o-do-Site-Renova-Vidas-22e7b20159c480b58006c847bfad0e24?showMoveTo=true&saveParent=true)
 
 O **Renova Vidas** é o site institucional de uma ONG fictícia com propósito real: **combater a fome e ajudar na reintegração de pessoas em situação de rua à sociedade**.  
 Por meio de projetos sociais, capacitações e ações voluntárias, buscamos transformar vulnerabilidade em dignidade.
